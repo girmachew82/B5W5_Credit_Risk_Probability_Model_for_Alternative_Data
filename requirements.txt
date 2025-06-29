@@ -3,4 +3,4 @@ pandas==2.0.3
 pytz==2023.3
 six==1.17.0
 tzdata==2023.3
-pytest==8.2.0  # or the latest stable version
+pytest==8.2.0  
