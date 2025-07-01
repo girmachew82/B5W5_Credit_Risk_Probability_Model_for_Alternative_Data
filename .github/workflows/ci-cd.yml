@@ -28,7 +28,10 @@ jobs:
       run: |
         python -c "import numpy, pandas, pytz, six; print('Packages installed successfully')"
 
-        
+    - name: Run flake8 linter
+      run: |
+        flake8 src/ --max-line-length=100
+
     - name: Run Tests
       run: |
         pytest
