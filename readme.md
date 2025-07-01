@@ -100,4 +100,4 @@ for col in numeric_cols:
     df = agg_features.fit_transform(df)
     df[['CustomerId', 'total_transaction_amount', 'average_transaction_amount', 'transaction_count', 'std_transaction_amount']].head()`
 #### Model Training
-
+#### Deployment and Testing
